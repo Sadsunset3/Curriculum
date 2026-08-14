@@ -1,0 +1,79 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "今日课程"
+      }
+    },
+    {
+      "path": "pages/week/week",
+      "style": {
+        "navigationBarTitleText": "周课表"
+      }
+    },
+    {
+      "path": "pages/courses/courses",
+      "style": {
+        "navigationBarTitleText": "课程管理"
+      }
+    },
+    {
+      "path": "pages/arrange/arrange",
+      "style": {
+        "navigationBarTitleText": "安排"
+      }
+    },
+    {
+      "path": "pages/course-form/course-form",
+      "style": {
+        "navigationBarTitleText": "添加课程"
+      }
+    },
+    {
+      "path": "pages/import-story/import-story",
+      "style": {
+        "navigationBarTitleText": "智能导入"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#7A7F87",
+    "selectedColor": "#111827",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "今日",
+        "iconPath": "static/tabbar/today.png",
+        "selectedIconPath": "static/tabbar/today-active.png"
+      },
+      {
+        "pagePath": "pages/arrange/arrange",
+        "text": "安排",
+        "iconPath": "static/tabbar/arrange.png",
+        "selectedIconPath": "static/tabbar/arrange-active.png"
+      },
+      {
+        "pagePath": "pages/week/week",
+        "text": "周课表",
+        "iconPath": "static/tabbar/semester.png",
+        "selectedIconPath": "static/tabbar/semester-active.png"
+      },
+      {
+        "pagePath": "pages/courses/courses",
+        "text": "课程",
+        "iconPath": "static/tabbar/courses.png",
+        "selectedIconPath": "static/tabbar/courses-active.png"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "校园课表",
+    "navigationBarBackgroundColor": "#F5F6F8",
+    "backgroundColor": "#F5F6F8"
+  },
+  "uniIdRouter": {}
+}
